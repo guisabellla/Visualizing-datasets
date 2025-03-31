@@ -1,17 +1,3 @@
-'''
-import json
-files = [
-    'China_GDP.json',
-    'US_GDP.json',
-]
-data = []
-for file in files:
-    with open(file, encoding='utf-8') as fin:
-        text = fin.read()
-        data.extend(json.loads(text))
-print(f'len(data)={len(data)}')
-'''
-
 import json
 import matplotlib.pyplot as plt
 
